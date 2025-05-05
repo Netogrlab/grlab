@@ -1,0 +1,41 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 300px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.5rem;
+}
+
+.contato i {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
